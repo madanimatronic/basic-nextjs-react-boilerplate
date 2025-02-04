@@ -10,3 +10,5 @@ Basic Next.js, TS, React (and more) boilerplate for Frontend.
   format
   format:fix
 ```
+
+\*Don't forget to rename .env.example
