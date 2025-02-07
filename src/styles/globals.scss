@@ -18,6 +18,7 @@ body {
   overflow-x: hidden;
 }
 
+// В body указываются запасные шрифты
 body {
   /* color: var(--foreground); */
   color: $lime;
@@ -25,6 +26,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+// Глобальные шрифты подключать в app-wrapper
+.app-wrapper {
+  font-family: var(--font-poppins);
 }
 
 * {

@@ -1,17 +1,7 @@
 import { Seo } from '@/components/Seo';
+// import { geistMono, geistSans } from '@/styles/fonts';
 import styles from '@/styles/Home.module.scss';
-import { Geist, Geist_Mono } from 'next/font/google';
 import Image from 'next/image';
-
-const geistSans = Geist({
-  variable: '--font-geist-sans',
-  subsets: ['latin'],
-});
-
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
-  subsets: ['latin'],
-});
 
 export default function Home() {
   return (
@@ -21,9 +11,8 @@ export default function Home() {
         metaDescription='some description'
         iconLink='/favicon.ico'
       />
-      <div
-        className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
-      >
+      <p> TEsT test TEST AJKFKFHAWIFHIWHF АБВГДабвйыфв</p>
+      <div className={`${styles.page}`}>
         <main className={styles.main}>
           <Image
             className={styles.logo}
