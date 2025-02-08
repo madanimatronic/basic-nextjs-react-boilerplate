@@ -5,7 +5,7 @@ import type { AppProps } from 'next/app';
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <div
-      className={`app-wrapper ${geistSans.variable} ${geistMono.variable} ${poppinsLocal.variable}`}
+      className={`appWrapper ${geistSans.variable} ${geistMono.variable} ${poppinsLocal.variable}`}
     >
       <Component {...pageProps} />
     </div>
